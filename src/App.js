@@ -19,25 +19,33 @@ function App() {
 export default App;
 
 const EditorWrapper = styled.div`
-	background-color: black;
+	background-color: gray;
 	width: 50vw;
 `;
 
 const EditorTitle = styled.h2`
-	color: white;
+	color: darkgray;
 `;
 
 const TextArea = styled.textarea`
 	border: none;
+	width: 44vw;
+	height: 86vh;
+	resize: none;
+	background: none;
+	color: whitesmoke;
+	:focus {
+		outline: 0;
+	}
 `;
 
 const PreviewWrapper = styled.div`
 	background-color: white;
-  width: 50vw;
+	width: 50vw;
 `;
 
 const PreviewTitle = styled.h2`
-	color: black;
+	color: darkgray;
 `;
 
 const MainWrapper = styled.div`
